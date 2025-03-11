@@ -1,0 +1,106 @@
+.chessboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.chessboard {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 800px;
+    height: 750px;
+    border: 250px solid #333;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    user-select: none;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.dark {
+    background-color: #b8b8b8;
+    color: #000;
+}
+
+.coordinate {
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.coordinate.file {
+    bottom: -25px;
+}
+
+.coordinate.rank {
+    left: -25px;
+}
+
+.selected {
+    background-color: #e6e600;
+}
+
+.game-status {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+.square:hover {
+    opacity: 0.8;
+}
+
+.light {
+    background-color: #e8edf9;
+    color: #2c2c2c;
+}
+
+.dark {
+    background-color: #b7c0d8;
+    color: #2c2c2c;
+}
+
+.coordinate {
+    position: absolute;
+    font-size: min(2vw, 16px);
+    color: #262421;
+    font-weight: bold;
+}
+
+.coordinate.file {
+    bottom: -25px;
+}
+
+.coordinate.rank {
+    left: -25px;
+}
+
+.selected {
+    background-color: #baca44;
+}
+
+.game-status {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.game-status {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
