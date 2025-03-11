@@ -11,4 +11,4 @@ Basit ve işlevsel bir **JavaScript ile geliştirilmiş satranç oyunu**.
 ## 📌 Kurulum  
 Projeyi klonlayın:  
 ```bash
-git clone https://github.com/kullanıcı-adın/chess-js.git 
+git clone https://github.com/omerfarukaslancan/chess-js.git 
